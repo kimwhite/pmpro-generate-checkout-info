@@ -29,7 +29,7 @@ function generate_checkout_info() {
         jQuery('#bzipcode').val( results.location.postcode );
         jQuery('#bphone').val( results.phone );
         jQuery('#pmpro_sfirstname').val( results.name.first );
-        jQuery('#pmpro_slastname').val( results.name.last );``
+        jQuery('#pmpro_slastname').val( results.name.last );
         jQuery('#pmpro_saddress1').val( results.location.street.number  + ' ' +  results.location.street.name );
         jQuery('#pmpro_scity').val( results.location.city );
         jQuery('#pmpro_sstate').val( results.location.state );
